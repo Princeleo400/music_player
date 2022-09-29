@@ -11,18 +11,18 @@ import { createContext } from "react";
 
 export const tracks = [
   {
-    name: "Mekanın Sahibi",
-    artist: "Norm Ender",
+    name: "For my hand",
+    artist: "Burna Boy ft Ed Sheeran",
     cover:
-      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
+      "https://raw.githubusercontent.com/Princeleo400/music_player/master/src/assets/img/images%20(10).jpeg",
     source:
-      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+      "https://raw.githubusercontent.com/Princeleo400/music_player/master/src/audio/Burna-Boy-For-My-Hand-ft-Ed-Sheeran-file-1-(JustNaija.com).mp3",
     url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
     favorited: false,
   },
   {
-    name: "Everybody Knows",
-    artist: "Leonard Cohen",
+    name: "Sun and Moon",
+    artist: "Anees",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
     source:
@@ -31,8 +31,8 @@ export const tracks = [
     favorited: true,
   },
   {
-    name: "Extreme Ways",
-    artist: "Moby",
+    name: "Happier than ever",
+    artist: "Bikkie Ellish",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
     source:
@@ -41,8 +41,8 @@ export const tracks = [
     favorited: false,
   },
   {
-    name: "Butterflies",
-    artist: "Sia",
+    name: "Common Person",
+    artist: "Burna Boy",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
     source:
@@ -51,8 +51,8 @@ export const tracks = [
     favorited: false,
   },
   {
-    name: "The Final Victory",
-    artist: "Haggard",
+    name: "Survive The Night",
+    artist: "Chris Brown",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
     source:
@@ -71,8 +71,8 @@ export const tracks = [
     favorited: false,
   },
   {
-    name: "The Comeback Kid",
-    artist: "Lindi Ortega",
+    name: "Texts Go Green",
+    artist: "Drake",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
     source:
@@ -81,8 +81,8 @@ export const tracks = [
     favorited: true,
   },
   {
-    name: "Overdose",
-    artist: "Grandson",
+    name: "Kingdom Come",
+    artist: "Jon Bellion",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
     source:
@@ -91,8 +91,158 @@ export const tracks = [
     favorited: false,
   },
   {
-    name: "Rag'n'Bone Man",
-    artist: "Human",
+    name: "Robbery",
+    artist: "Juice WRLD",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Beautiful Love",
+    artist: "Justin Beiber",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Intentions",
+    artist: "Justin Beiber ft Quavo",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Peaches",
+    artist: "Justin Beiber",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Audio ft. Sia, Diplo, Labrinth",
+    artist: "LSD",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Girls Like You",
+    artist: "Maroon 5 ft Cardi B",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Lost",
+    artist: "Maroon 5",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Memories",
+    artist: "Maroon 5 ft Nipsey Huss",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Clouds",
+    artist: "NF",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Calm Down",
+    artist: "Rema ft Selena Gomez",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Chandelier",
+    artist: "Sia",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Cheap Thrills",
+    artist: "Sia",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Everyday is Christmas",
+    artist: "Sia",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Unstoppable",
+    artist: "Sia",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "Blank Space",
+    artist: "Taylor Swift",
+    cover:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+    source:
+      "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
+    url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+    favorited: false,
+  },
+  {
+    name: "End Game",
+    artist: "Taylor Swift",
     cover:
       "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
     source:
