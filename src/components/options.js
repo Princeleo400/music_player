@@ -45,7 +45,7 @@ const Options = ({ idx }) => {
   return (
     <div className="options">
       {(shuffl && (
-        <button onClick={shuffle} className="opt" style={{ color: "#147CC0" }}>
+        <button onClick={shuffle} className="opt" style={{ color: "#9A7ADF" }}>
           <Shuffle />
         </button>
       )) || (
@@ -57,7 +57,7 @@ const Options = ({ idx }) => {
         <BoxArrowUpRight />
       </button>
       {(fav && (
-        <button onClick={favorite} className="opt" style={{ color: "#147CC0" }}>
+        <button onClick={favorite} className="opt" style={{ color: "#9A7ADF" }}>
           <HeartFill />
         </button>
       )) || (
@@ -66,7 +66,7 @@ const Options = ({ idx }) => {
         </button>
       )}
       {(repet && (
-        <button onClick={repeat} className="opt" style={{ color: "#147CC0" }}>
+        <button onClick={repeat} className="opt" style={{ color: "#9A7ADF" }}>
           <ArrowRepeat />
         </button>
       )) || (
